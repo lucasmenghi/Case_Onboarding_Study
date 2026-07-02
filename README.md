@@ -10,16 +10,39 @@ All data is synthetic and generated for portfolio purposes only.
 ## Phase 1 Contents
 
 ```text
-digital-onboarding-case-study/
+case_onboarding_study/
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
+│
 ├── data/
 │   ├── onboarding_users.csv
 │   ├── events.csv
 │   ├── support_calls.csv
-└── notebooks/
-    └── 01_Data_Generation.ipynb
+│
+├── notebooks/
+│   ├── 01_Data_Generation.ipynb
+│   ├── 02_EDA.ipynb
+│   ├── 03_Funnel_Analysis.ipynb
+│   ├── 04_User_Segmentation.ipynb
+│   ├── 05_Hypothesis_Testing.ipynb
+│   ├── 06_AB_Test.ipynb
+│   ├── 07_Financial_Impact.ipynb
+│   ├── 08_Dashboard.ipynb
+│
+├── sql/
+│   ├── funnel.sql
+│   ├── retention.sql
+│   ├── support.sql
+│
+├── images/
+│
+├── dashboard/
+│   ├── streamlit_app.py
+│
+└── docs/
+    ├── Executive_Summary.pdf
+    ├── Business_Presentation.pdf
 ```
 
 ## Data Model
